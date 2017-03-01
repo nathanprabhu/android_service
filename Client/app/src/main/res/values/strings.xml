@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">PlayerClient</string>
+    <string-array name="songlist">
+        <item>Jingle Bells</item>
+        <item>Follow your dreams</item>
+        <item>On My Way</item>
+        <item>After Burning</item>
+        <item>I seen her dance</item>
+        <item>Earth\'s last sunrise</item>
+    </string-array>
+</resources>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.prabhunathan.cs478.p5.cs478_proj5_1_playerclient.SongHistoryList">
+
+    <TextView
+        android:layout_width="180dp"
+        android:layout_height="50dp"
+        android:text="Song History"
+        android:id="@+id/textView2"
+        android:textSize="20dp"
+        android:typeface="sans"
+        android:gravity="center"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/transactionsList"
+        android:layout_below="@+id/textView2"
+        android:layout_toLeftOf="@+id/scrollView2"
+        android:layout_toStartOf="@+id/scrollView2"
+        android:layout_marginTop="48dp" />
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView2"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+</RelativeLayout>
